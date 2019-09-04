@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textStyle="bold"
+        android:textColor="@color/mycolor"
+        android:textSize="@dimen/title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+    <TextView
+        android:id="@+id/titlee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/mycolor"
+        android:layout_marginTop="1dip"
+        android:layout_alignTop="@+id/id"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="title"
+        android:textStyle="bold"
+        android:textSize="@dimen/title" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/dateee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/id"
+        android:textSize="@dimen/year"
+        android:text="Event Date"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/timeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="1dip"
+        android:layout_alignTop="@+id/dateee"
+      android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+       android:text="time"
+        android:textStyle="bold"
+        android:textSize="@dimen/year" />
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/messagee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateee"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/colorPrimary"
+        android:text="message"
+        android:textSize="@dimen/year"
+        android:textStyle="bold|italic"/>
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/longt"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+</RelativeLayout>

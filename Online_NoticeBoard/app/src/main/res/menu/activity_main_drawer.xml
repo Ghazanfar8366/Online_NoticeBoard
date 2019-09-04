@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_workshop"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Workshop" />
+        <item
+            android:id="@+id/nav_exhibition"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Exhibition" />
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Entertainment" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>

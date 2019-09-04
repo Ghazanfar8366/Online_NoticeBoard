@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="encode_view">#ffffffff</color>
+    <color name="contents_text">#ff000000</color>
+
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mycolor">#E0511C</color>
+
+        <color name="colorPrimary">#FF763DCD</color>
+        <color name="colorPrimaryDark">#FF6A29AB</color>
+        <color name="colorAccent">#ff6861</color>
+        <color name="colorRed">#C70039</color>
+        <color name="year">#888888</color>
+        <color name="list_divider">#d9d9d9</color>
+        <color name="list_row_start_color">#ffffff</color>
+        <color name="list_row_end_color">#ffffff</color>
+        <color name="list_row_hover_start_color">#ebeef0</color>
+        <color name="list_row_hover_end_color">#ebeef0</color>
+        <color name="bg_login">#FF763DCD</color>
+        <color name="bg_register">#FF763DCD</color>
+        <color name="bg_main">#428bca</color>
+
+        <color name="input_login">#222222</color>
+        <color name="input_login_hint">#999999</color>
+        <color name="input_register">#cfcece</color>
+        <color name="input_register_bg">#3b4148</color>
+        <color name="input_register_hint">#5e6266</color>
+        <color name="btn_login">#26ae90</color>
+        <color name="btn_login_bg">#eceef1</color>
+        <color name="lbl_name">#333333</color>
+        <color name="btn_logut_bg">#ff6861</color>
+        <color name="genre">#666666</color>
+
+
+</resources>
